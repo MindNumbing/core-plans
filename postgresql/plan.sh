@@ -6,7 +6,8 @@ pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="PostgreSQL is a powerful, open source object-relational database system."
 pkg_upstream_url="https://www.postgresql.org/"
 pkg_license=('PostgreSQL')
-pkg_source="https://ftp.postgresql.org/pub/source/v${pkg_version}/${pkg_name}-${pkg_version}.tar.bz2"
+pkg_dirname="postgresql-${pkg_version}"
+pkg_source="https://ftp.postgresql.org/pub/source/v${pkg_version}/${pkg_dirname}.tar.bz2"
 pkg_shasum="38250adc69a1e8613fb926c894cda1d01031391a03648894b9a6e13ff354a530"
 
 pkg_deps=(
